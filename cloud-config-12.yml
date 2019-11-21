@@ -10,6 +10,6 @@ spring:
 server:
   address: 4002
 spring:
-  profiles:dev
+  profiles:prod
   applications:
     name:microservice-config-prod
