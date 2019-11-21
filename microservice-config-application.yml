@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+server:
+  address: 4001
+spring:
+  profiles:dev
+  applications:
+    name:microservice-config-dev
+server:
+  address: 4002
+spring:
+  profiles:dev
+  applications:
+    name:microservice-config-prod
